@@ -1,0 +1,8 @@
+openai
+python-dotenv
+
+
+
+
+# requirements.txt tells pip which external Python packages your
+# project needs; it is not part of the application's runtime logic.
