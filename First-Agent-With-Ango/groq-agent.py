@@ -10,10 +10,10 @@ def build_agent():
     return Agent(
         model=Ollama(id="qwen3:1.7b"),
         markdown=True,
-        instructions="You are a helpful and expert travel agent."
+        instructions="You are a helpful and expert coding."
     )
 
 
 agent = build_agent()
 
-agent.print_response("My budget is 1L INR, should I travel to Goa or Phuket?")
+agent.print_response("what is api status code")
